@@ -1,10 +1,9 @@
 {
   "name": "simple-mvc-example",
-  "version": "1.0.0",
-  "engines": {
-
-    "node": "6.5.0"
-
+  "version": "0.0.0",
+   "engines": {
+    "node": "6.5.0",
+    "npm": "3.10.3"
   },
   "description": "A simple Express MVC using only static files",
   "main": "./src/app.js",
@@ -13,20 +12,12 @@
     "pretest": "eslint ./src --fix",
     "test": "echo \"tests complete\""
   },
-  "author": "Mary",
+  "author": "Cody Van De Mark",
   "license": "ISC",
-   "devDependencies": {
-
-    "eslint": "^3.4.0",
-
-    "eslint-config-airbnb": "^11.0.0",
-
-    "eslint-plugin-import": "^1.14.0",
-
-    "eslint-plugin-jsx-a11y": "^2.2.1",
-
-    "eslint-plugin-react": "^6.2.0"
-
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.1"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
